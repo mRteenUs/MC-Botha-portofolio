@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="portofolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <section class="nvg-bar">
+        <a href="#home"><div class="nvg-bar-buttons">Home</div></a>
+        <a href="#about"><div class="nvg-bar-buttons">About</div></a>
+        <a href="#projects"><div class="nvg-bar-buttons">Projects</div></a>
+        <a href="#contact-me"><div class="nvg-bar-buttons">Contact me</div></a>
+    </section>
+
+    <section class="home">
+        <div class="home-info" id="home">
+            <label id="home-info-intro">hello, I'm</label>
+            <br>
+            <label id="home-info-name">MC Botha</label>
+            <br>
+            <label id="home-info-description">junior software engineer / web developer</label>
+            <br>
+            <label id="home-info-title">portofolio</label>
+
+        </div>
+    </section>
+
+    <div class="about-heading" id="about">
+        <h2>About</h2>
+    </div>
+    <br>
+    <section class="about">
+        <div class="about-personal">
+            <div class="about-personal-description">
+            <p class="about-personal-info">
+            I'm a 18 year old student at Rustenburg High School. Soon to be a Matie at Stellenbosch University, SA.
+            I'm a self taught software developer. I'm a hard working individual and I put lots of effort in the things I love, like programming. I'm a good listener and will do the task that has been put in my hands.
+            </p>
+        </div>
+        <div class="about-personal-image"></div>
+        </div>
+        <br>
+        <br>
+        <h4>My goals</h4>
+        <div class="about-goals">
+            
+            <p class="about-goals-info">
+                
+        
+                As a junior software developer, I strive to build my knowledge about software every day. Doing small projects and jobs is my fastest way of retreiving that goal. I plan to do my degree in Computer Science at Stellenbosch University. After that I want to apply at the big companies, where I can revolutionise the next tech generation.
+            </p>
+            <br>
+            <div class="about-goals-image"></div>
+        </div>
+        <br>
+        <h4>Programming languages</h4>
+        <div class="about-languages">
+            
+            <p class="about-languages-info">
+                The languages I can currently program in is HTML, CSS and JavaScript. I have skills in MySQL and have a fair knowledge about Delphi.
+            </p>
+            <br>
+            <div class="about-languages-image"></div>
+        </div>
+        
+        
+        <br>
+        <h4>My CV</h4>
+        <br>
+        <div class="about-cv-frame" >
+            <a href="MC Botha CV.pdf" type="blank"><div class="about-cv-button">CV document</div></a>
+         </div>
+    </section>
+    <br>
+    <h2>Projects</h2>
+    <br>
+    <section class="projects" id="projects">
+        <div class="projects-align">
+            <div class="projects-box" id="project-1">
+                <div class="project-1-text">Project 1</div>
+            </div>
+            <div class="projects-box" id="project-2">
+                <div class="project-2-text">Project 2</div>
+            </div>
+            <div class="projects-box" id="project-3">
+                <div class="project-3-text">Project 3</div>
+            </div>
+            <div class="projects-box" id="project-4">
+                <div class="project-4-text">Project 4</div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-me" id="contact-me">
+        <h2>Contact me</h2>
+        <br>
+        <div class="contact-me-inner-box">
+            <div class="contact-me-info">
+                <br>
+                <label>Name and surname:</label>
+                <br>
+                <input type="text" id="nameSurname" placeholder="Name Surname">
+                <br>
+                <br>
+                <label>Email:</label>
+                <br>
+                <input type="email" id="email" placeholder="john123@gmail.com">
+                <br>
+                <br>
+                <label>Message</label>
+                <br>
+                <textarea type="text" id="message" placeholder="Message"></textarea>
+                <br>
+                <br>
+                <button id="send-email" type="submit">Send email</button>
+            </div>
+            <div class="social-box">
+                <a href="https://github.com/mRteenUs"><div class="social-icons" id="github"></div></a>
+                <a href="https://www.upwork.com/freelancers/~01d4f34266c6df1cfa"><div class="social-icons" id="upwork"></div></a>
+                <!--<div class="social-icons" id="linkedIn"></div>-->
+            </div>
+        </div>
+    </section>
+    <script src="portofolio.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,603 @@
+body {
+    background-color: rgba(4, 13, 34, 0.979);
+    font-family: 'Quicksand', sans-serif;
+}
+
+* {
+    margin: 0;
+}
+.nvg-bar {
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    background-color: rgba(4, 13, 34, 0.979);
+    font-size: 0.9rem;
+}
+
+.nvg-bar-buttons {
+    height: fit-content;
+    padding: 1rem 1rem;
+    color: white;
+    
+}
+
+.nvg-bar-buttons:hover {
+    font-weight:bolder;
+    text-shadow: 5px 5px 5px black;
+}
+
+.home {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-info {
+    max-width: 20rem;
+    height: fit-content;
+    color: white;
+    text-align: right;
+    text-shadow: 7px 7px 2px black;
+}
+
+#home-info-intro {
+    font-size: 0.9rem;
+}
+
+#home-info-name {
+    font-size: 3rem;
+}
+
+#home-info-description {
+    font-size: 1.2rem;
+}
+
+#home-info-title {
+    font-size: 0.8rem;
+}
+
+h2 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.about-heading {
+    text-align: center;
+}
+
+.about{
+    background-color: white;
+    height: 120rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-personal-description {
+    width: 100%;
+    height: 15rem;
+    background-color: white;
+}
+
+.about-personal-info {
+    padding: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.about-personal-image {
+    background-image: url(https://img.freepik.com/premium-photo/abstract-polygonal-human-face-3d-illustration-cyborg-head-construction-artificial-intelligence-concept_553544-1167.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 20rem;
+    border-radius: 3rem;
+    box-shadow: 5px 5px 5px grey;
+    margin: 0px 1em;
+    width: 92%;
+}
+
+h4 {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.about-goals {
+    max-width: 100vw;
+    height:40rem;
+}
+
+.about-goals-info {
+    padding: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.about-languages {
+    width: 100%;
+    height: 30rem;
+}
+
+.about-goals-image {
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/020/878/491/small/abstract-mesh-black-and-white-digital-particles-wave-video.jpg);
+    height: 20rem;
+    width: 92%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 3rem;
+    margin: 0px 1em;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.about-languages-info {
+    padding: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.about-languages-image {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXrb4qr88iB2T98B4HdZ0PpbwyujXrOPjhEQ&usqp=CAU);
+    height: 20rem;
+    width: 92%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 3rem;
+    margin: 0px 1rem;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.about-cv-button {
+    height: 2em;
+    width: 8em;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 0.4rem;
+    border-radius: 2rem;
+    background-color: rgba(4, 13, 34, 0.979);
+    color: white;
+    box-shadow: 3px 3px 3px grey;
+}
+
+.about-cv-frame {
+    width: 100%;
+    height: 2rem;
+    justify-content: center;
+    display: flex;
+}
+
+.about-cv-button:hover {
+    font-weight: bold;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.projects {
+    width:100vw;
+    height: 35em;
+}
+
+.projects-align {
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+#project-1 {
+    width: 10em;
+    height: 10em;
+    border: 4px solid black;
+    border-radius: 2.5em;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo2T4291xj-YyK7eIWw5U4v8tK9hLdfBJyvw&usqp=CAU);
+    line-height: 10em;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    left: 25vh;
+    opacity: 0.7;
+}
+
+.project-1-text {
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    
+    
+}
+
+#project-2 {
+    width: 10em;
+    height: 10em;
+    border: 4px solid black;
+    border-radius: 2.5em;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo2T4291xj-YyK7eIWw5U4v8tK9hLdfBJyvw&usqp=CAU);
+    line-height: 10em;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    right: 15vw;
+    translate: 0px -3em;
+    opacity: 0.7;
+}
+
+.project-2-text {
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    left: 25vw;
+}
+
+#project-3 {
+    width: 10em;
+    height: 10em;
+    border: 4px solid black;
+    border-radius: 2.5em;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo2T4291xj-YyK7eIWw5U4v8tK9hLdfBJyvw&usqp=CAU);
+    line-height: 10em;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    translate: 0px 4em;
+    opacity: 0.7;
+}
+
+.project-3-text {
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    left: 25vw;
+}
+
+#project-4 {
+    width: 10em;
+    height: 10em;
+    border: 4px solid black;
+    border-radius: 2.5em;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo2T4291xj-YyK7eIWw5U4v8tK9hLdfBJyvw&usqp=CAU);
+    line-height: 10em;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    right: 15vw;
+    translate: 0px 1em;
+    opacity: 0.7;
+}
+
+.project-4-text {
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    left: 25vw;
+}
+
+#project-1:hover {
+    opacity: 1;
+    font-weight: bold;
+    border-color: white;
+    
+}
+#project-2:hover {
+    opacity: 1;
+    font-weight: bold;
+    border-color: white;
+    
+}
+#project-3:hover {
+    opacity: 1;
+    font-weight: bold;
+    border-color: white;
+    
+}
+#project-4:hover {
+    opacity: 1;
+    font-weight: bold;
+    border-color: white;
+   
+}
+
+.contact-me-inner-box {
+    width: 86vw;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    height: 65vh;
+    border-top: 3px solid white;
+    display: flex;
+
+    
+}
+
+label {
+    color: white;
+}
+
+input {
+    width: 60vw;
+}
+
+#nameSurname {
+    border: 2px solid black;
+}
+
+#email {
+    border: 2px solid black;
+}
+
+#message {
+    height: 3rem;
+    width: 60vw;
+    border: 2px solid black;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#send-email {
+    background-color: white;
+    color: black;
+    border-radius: 2em;
+    border: 2px solid black;
+    width: 9em;
+    height: 3em;
+    font-size: 1rem;
+}
+
+.social-box {
+    padding-left: 2em;
+    padding-right: 1em;
+    height: 15em;
+    width: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.social-icons {
+    width: 2em;
+    height: 2em;
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+    border-radius: 0.4em;
+    border: 1px solid white;
+    box-shadow: 3px 3px 3px black;
+}
+
+#github {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUBwhMOxO7xHV9OqhDZ585TTapui1-kcj3dA&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#upwork {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKBGm1oOczWc054cjng_Y64yivojzyDPmqkw&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*#linkedIn {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkKAS0YFyIJOlK6Kd6I05_FHHwYnNWUp5LgQ&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}*/
+
+
+
+
+
+@media only screen and (min-width: 552px){
+    .nvg-bar{
+        font-size: 1.3rem;
+    }
+
+    #home-info-intro{
+        font-size: 1.3rem;
+    }
+
+    #home-info-name{
+        font-size: 3.4rem;
+    }
+
+    #home-info-description{
+        font-size: 1.6rem;
+    }
+
+    #home-info-title{
+        font-size: 1.1rem;
+    }
+
+    h2{
+        font-size: 1.9rem;
+    }
+
+    .about {
+        height: 125rem;
+    }
+
+    .about-personal-info{
+        font-size: 1.5rem;
+    }
+
+    .about-personal-image{
+        box-shadow: 7px 7px 7px grey;
+    }
+
+    .about-goals-info{
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        font-size:1.6rem;
+    }
+
+    .about-goals-image{
+        box-shadow: 7px 7px 7px grey;
+    }
+
+    .about-languages-info{
+        font-size: 1.5rem;
+    }
+
+    .about-languages-image{
+        box-shadow: 7px 7px 7px grey;
+    }
+
+    .about-cv-button {
+        font-size: 1.5rem;
+    }
+
+    .projects {
+        height: 45em;
+    }
+
+    #project-1 {
+        width: 15em;
+        height: 15em;
+        line-height: 15em;
+    }
+
+    .projects-align {
+        margin-left: 25vw;
+        margin-right: 25vw;
+    }
+
+    #project-2 {
+        width: 15em;
+        height: 15em;
+        position: absolute;
+        right: 25vw;
+        translate: 0px -6em;
+        line-height: 15em;
+    }
+
+    #project-3 {
+        width: 15em;
+        height: 15em;
+        line-height: 15em;
+    }
+
+    #project-4 {
+        width: 15em;
+        height: 15em;
+        line-height: 15em;
+        position: absolute;
+        right: 25vw;
+        translate: 0px -2em;
+        line-height: 15em;
+    }
+
+    label {
+        font-size: 1.5rem;
+    }
+    
+    #send-email{
+        font-size: 1.4rem;
+    }
+    
+    .contact-me-inner-box{
+        height: 87vh;
+    }
+
+    input{
+        height: 2rem;
+        line-height: 2rem;
+        font-size: 1.5rem;
+    }
+
+    #message{
+        font-size: 1.5rem;
+        height:6rem;
+    }
+
+    .social-icons {
+        width: 3em;
+        height: 3em;
+    }
+
+    .social-box {
+        height: 20em;
+        padding-left: 4em;
+    }
+
+    .project-1-text {
+        font-size: 1.4rem;
+    }
+
+    .project-2-text {
+        font-size: 1.4rem;
+    }
+
+    .project-3-text {
+        font-size: 1.4rem;
+    }
+
+    .project-4-text {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    .nvg-bar-buttons{
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .about-personal {
+        display: flex;
+    }
+
+    .about-personal-image{
+        width:60vw;
+        margin-top: 1rem;
+    }
+
+    .about-personal-info{
+        width: 40vw;
+    }
+
+    .about-goals-image{
+        width:45vw;
+        margin-top: 1rem;
+        height: 20rem;
+        margin-top: 2rem;
+    }
+
+    .about-goals-info{
+        width:45vw;
+    }
+
+    .about-goals {
+        max-width: 100vw;
+        height: 70vh;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .about-languages-image{
+        width:60vw;
+        margin-top: 1rem;
+        height: 20rem;
+        margin-top: 2rem;
+    }
+
+    .about-languages-info{
+        width:30vw;
+    }
+
+    .about-languages {
+        max-width: 100vw;
+        height: 60vh;
+        display: flex;
+    }
+
+    .about {
+        max-width: 100vw;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        height:100rem;
+    }
+}
